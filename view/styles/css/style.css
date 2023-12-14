@@ -1,0 +1,70 @@
+/* Общи стилове */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Стилове за контейнера */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Стилове за въпросите */
+.question-container {
+  margin-bottom: 20px; /* Примерно разстояние между въпросите */
+  border: 1px solid #ccc; /* Примерна граница за подчертаване на въпроса */
+  padding: 10px; /* Примерен вътрешен отстъп за по-добър външен вид */
+}
+/* Стилове за тъмните бутони */
+.btn-dark {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.btn-dark:hover {
+  background-color: #1d2124;
+}
+
+/* Стилове за таблицата */
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #343a40;
+  color: #fff;
+}
+
+/* Стилове за топ бутон */
+/* #topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#topBtn:hover {
+  background-color: #555;
+} */

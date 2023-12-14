@@ -1,0 +1,80 @@
+Написах проект на PHP, MySQL, JavaScript, HTML, CSS.
+Структурата е следната:
+Директория: mk_test
+/admin:
+-/examp
+
+-/crud:
+--crud.php
+--/index:
+---alerts.php
+---paginations.php
+
+-/styles:
+--/js:
+---create.js
+---update.js
+---jsFuntions.js
+
+--/css:
+---style.css
+
+-/img:
+--logo_ministry.png
+
+-create_control.php
+-create_js.php
+-create.php
+-del_confirm.php
+-delete.php
+-delete_all.php
+-delete_single.php
+-delete_img.php
+-header.php
+-index_js.php
+-index.php
+-update_control.php
+-update_js.php
+-update.php
+
+/database:
+-config.php
+
+/view:
+-/styles:
+--/js:
+---Blob.js
+---export.js
+---FileSaver.js
+---html-docx.js
+---top.js
+
+--/img:
+---logo_ministry.png
+
+--/css:
+---style.css
+
+--additional_f.php
+--functions.php
+--index.php
+--questions.php
+
+Базата данни има следните таблици: ear, theory, harmony, analisys, harmony. А всички те имат следните колони: id, theme, difficulty, question, question_img, correct_answer, answer1, answer1_img, answer2, answer2_img, answer3, answer3_img, answer4, answer4_img.
+
+Искам да имплементираме логин система с вход и регистрация, която да дава достъп до проекта. Искам да има две роли потребители: expert_mk (Държавен експерт) и director_nms (Директор НМУ). След това да направим малък администраторски панел, който да управлява проекта. После ще уточним и останалите функции, които да добавим.
+
+При регистрация трябва да има изискване за следните данни:
+Първо име
+Фамилия
+И-мейл
+Потребителско име
+Парола
+Училище
+Град
+Телефон
+
+Всички полета са задължителни!
+
+В базата данни искам да създадем таблица users, в която да има следните колони:
+id, username, password, first_name, last_name, email, school, city, phone, role.
